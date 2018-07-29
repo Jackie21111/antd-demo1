@@ -1,5 +1,6 @@
 import {Form, Icon, Input, Button, Checkbox} from 'antd';
 import React from 'react';
+import './Login.css'
 
 
 const FormItem = Form.Item;
@@ -58,7 +59,7 @@ class NormalLoginForm extends React.Component {
           <Button
             type="primary"
             htmlType="submit"
-            className="login-form-button"
+            className="login-form-button regBtnRight "
           >
             Log in
           </Button>

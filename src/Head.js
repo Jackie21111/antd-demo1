@@ -2,8 +2,8 @@ import React from "react";
 
 import "antd/dist/antd.css";
 import "./index.css";
-import WrappedRegistrationForm from './login_Register/Registration';
-import WrappedHorizontalLoginForm from './login_Register/Login';
+import WrappedRegistrationForm from './login_register/Registration';
+import WrappedHorizontalLoginForm from './login_register/Login';
 import {Modal, Button, Menu} from "antd";
 
 class Head extends React.Component {
